@@ -661,6 +661,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Menu Option
       objectReference: {fileID: 0}
+    - target: {fileID: 3378477149257794478, guid: 3f739df978e07a947b8b26473287e567, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4458201419706364040, guid: 3f739df978e07a947b8b26473287e567, type: 3}
       propertyPath: m_Name
       value: Label
