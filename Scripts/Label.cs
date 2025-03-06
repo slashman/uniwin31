@@ -13,4 +13,16 @@ public class Label : MonoBehaviour
     public void SetText(string text) {
         this.text.text = text;
     }
+
+    public void AddText(string text) {
+        this.text.text += text;
+    }
+
+    public void ShiftText(string text) {
+        this.text.text = text + this.text.text;
+    }
+
+    public void Clear() {
+        text.text = "";
+    }
 }
