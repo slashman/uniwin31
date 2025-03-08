@@ -11,6 +11,9 @@ public class Label : MonoBehaviour
     } 
 
     public void SetText(string text) {
+        if (this.text == null) {
+            Awake(); // Force awake, sorry
+        }
         this.text.text = text;
     }
 
